@@ -54,7 +54,7 @@ int main()
                     }
             }while(a[i]=='x');
         }
-    while(hero[0].power>0||hero[1].power>0)
+    while(hero[0].power>0&&hero[1].power>0)
     {
         system("cls");
         printf("\tPLAY GAME\n");
